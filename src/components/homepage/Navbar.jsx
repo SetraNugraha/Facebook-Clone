@@ -105,7 +105,7 @@ const ChildUserSetting = () => {
             <ListMenuUserSetting title={'Bantuan & Dukungan'} Icon={AiFillQuestionCircle} Arrow={RiArrowRightSLine} />
             <ListMenuUserSetting title={'Tampilan & Aksesibilitas'} Icon={FaMoon} Arrow={RiArrowRightSLine} />
             <ListMenuUserSetting title={'Beri Masukan'} Icon={RiChatDownloadFill} />
-            <ListMenuUserSetting title={'Keluar'} Icon={GrLogout} url={'/login'} />
+            <ListMenuUserSetting title={'Keluar'} Icon={GrLogout} url={'/'} />
           </ul>
         </div>
 

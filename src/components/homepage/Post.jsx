@@ -264,7 +264,7 @@ const CardPost = ({ username, userProfileImage, datePost, examplePost, image, te
           {/* Recent Comment */}
           <div className="bg-red-20s0">{textComment ? <RecentComment profileImg={userProfileImage} username={username} textComment={textComment} /> : null}</div>
         </div>
-        {isLastPost ? <p className="text-center text-slate-500 mt-5 pb-5">Anda Telah Mencapai Post Terakhir</p> : null}
+        {isLastPost ? <p className="text-center text-slate-500 mt-5 pb-5">Anda Telah Mencapai Postingan Terakhir</p> : null}
       </div>
     </>
   )

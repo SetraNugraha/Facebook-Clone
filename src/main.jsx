@@ -7,7 +7,7 @@ import Homepage from '../src/pages/Homepage'
 
 const router = createBrowserRouter([
   {
-    path: '/login',
+    path: '/',
     element: <Login />,
   },
   {

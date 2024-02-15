@@ -8,7 +8,7 @@ const Language = () => {
       {listLanguage.map((language, index) => {
         return (
           <div key={index}>
-            <a href="#" className="text-sm text-slate-400">
+            <a href="#" className="text-sm text-slate-400 hover:underline">
               {language}
             </a>
           </div>
