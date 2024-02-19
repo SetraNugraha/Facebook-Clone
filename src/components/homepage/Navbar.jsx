@@ -52,9 +52,9 @@ const UserSetting = () => {
   return (
     <>
       {/* User Setting */}
-      <li>
+      <li className="flex items-center">
         <button onClick={handleToggleUserSetting}>
-          <img src="img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
+          <img src="img/profile-default.jpg" alt="" className="h-[42px] w-[42px] rounded-full" />
         </button>
       </li>
       {/* Menu Toggle */}
