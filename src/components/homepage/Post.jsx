@@ -193,7 +193,7 @@ const RecentComment = ({ username, textComment }) => {
       <div className="flex gap-1 py-3 px-5" >
         {/* Profile Image */}
         <div className="w-[35px] h-[35px] mt-[-23px]">
-          <ProfileImage profileImg={'.img/example-img.png'} />
+          <ProfileImage profileImg={'img/example-img.png'} />
         </div>
         <div className="flex flex-col justify-center items-start gap-1">
           {/* User & Comment User */}
