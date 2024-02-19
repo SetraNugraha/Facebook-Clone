@@ -64,23 +64,23 @@ export default function Rightbar() {
         {/* Contact or Friend List */}
         <div className="border-b-2 border-slate-300 mr-5">
           <ul className="mb-2 px-1">
-            <FriendList username={'Setra Nugraha'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Setra Nugraha'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Budi'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Budi'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Prakoso'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Prakoso'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Ronald De William Sitompul'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Ronald De William Sitompul'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Uzumaki Naruto'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Uzumaki Naruto'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'GG Gaming'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'GG Gaming'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Franco'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Franco'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Dahlah'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Dahlah'} profileImage={'img/profile-default.jpg'} />
 
-            <FriendList username={'Cape'} profileImage={'./src/img/profile-default.jpg'} />
+            <FriendList username={'Cape'} profileImage={'img/profile-default.jpg'} />
           </ul>
         </div>
 

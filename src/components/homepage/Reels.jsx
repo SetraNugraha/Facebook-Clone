@@ -95,15 +95,15 @@ export default function Reels() {
         {/* Create Reels */}
         <div className="h-full px-5 py-5 flex gap-2">
           <div className="bg-slate-200 h-[80%] w-[160px] rounded-xl drop-shadow-lg hover:brightness-[0.85]">
-            <CreateReels profileImage={'./src/img/profile-default.jpg'} />
+            <CreateReels profileImage={'img/profile-default.jpg'} />
           </div>
 
           {/* List Reels Users */}
           <div className=" h-[80%] w-full rounded-xl relative overflow-hidden">
             <ul className="h-full flex gap-2">
-              <ReelsList username={'Setra Nugraha'} userProfileImage={'./src/img/profile-default.jpg'} userReelsImage={'./src/img/example.jpg'} />
-              <ReelsList username={'Budi'} userProfileImage={'./src/img/profile-default.jpg'} userReelsImage={'./src/img/example.jpg'} />
-              <ReelsList username={'Prakoso'} userProfileImage={'./src/img/profile-default.jpg'} userReelsImage={'./src/img/example.jpg'} />
+              <ReelsList username={'Setra Nugraha'} userProfileImage={'img/profile-default.jpg'} userReelsImage={'img/example.jpg'} />
+              <ReelsList username={'Budi'} userProfileImage={'img/profile-default.jpg'} userReelsImage={'img/example.jpg'} />
+              <ReelsList username={'Prakoso'} userProfileImage={'img/profile-default.jpg'} userReelsImage={'img/example.jpg'} />
             </ul>
           </div>
         </div>

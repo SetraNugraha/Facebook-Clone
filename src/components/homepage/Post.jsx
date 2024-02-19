@@ -179,7 +179,7 @@ const RecentComment = ({ username, textComment }) => {
       <>
         <div className="bg-red-20s0 h-[50px] flex justify-start items-center gap-2 px-5">
           <a href="#">
-            <img src="./src/img/profile-default.jpg" alt="" className="h-[40px] w-[40px] rounded-full" />
+            <img src="img/profile-default.jpg" alt="" className="h-[40px] w-[40px] rounded-full" />
           </a>
 
           <input type="text" className=" h-[75%] w-[90%] rounded-2xl bg-slate-100 px-5 placeholder:text-slate-600 placeholder:text-lg" placeholder="Tulis Komentar ..." />
@@ -193,7 +193,7 @@ const RecentComment = ({ username, textComment }) => {
       <div className="flex gap-1 py-3 px-5" >
         {/* Profile Image */}
         <div className="w-[35px] h-[35px] mt-[-23px]">
-          <ProfileImage profileImg={'../src/img/example-img.png'} />
+          <ProfileImage profileImg={'.img/example-img.png'} />
         </div>
         <div className="flex flex-col justify-center items-start gap-1">
           {/* User & Comment User */}

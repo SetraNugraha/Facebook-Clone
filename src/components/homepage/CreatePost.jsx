@@ -36,7 +36,7 @@ export default function CreatePost() {
       <div className="bg-white mt-5 h-[130px] rounded-lg">
         {/* Profile & Input */}
         <div className="h-1/2 w-[96%] flex justify-start items-center gap-4 py-2 mx-auto border-b-2 border-gray-300">
-          <TextPost userProfileImage={'./src/img/profile-default.jpg'} />
+          <TextPost userProfileImage={'img/profile-default.jpg'} />
         </div>
         {/* End Profile & Input */}
 

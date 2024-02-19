@@ -54,7 +54,7 @@ const UserSetting = () => {
       {/* User Setting */}
       <li>
         <button onClick={handleToggleUserSetting}>
-          <img src="./src/img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
+          <img src="img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
         </button>
       </li>
       {/* Menu Toggle */}
@@ -87,7 +87,7 @@ const ChildUserSetting = () => {
         <div className="bg-white w-[90%] mx-auto relative top-3 flex flex-col justify-start items-start rounded-lg shadow-xl">
           <div className="w-[95%] mx-auto pt-2 border-b-[1px] border-slate-400 pb-3 hover:bg-slate-100 hover:rounded-lg">
             <a href="#" className="flex gap-3 items-center px-2">
-              <img src="./src/img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
+              <img src="img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
               <p className="font-semibold">Setra Nugraha</p>
             </a>
           </div>

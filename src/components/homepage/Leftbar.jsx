@@ -13,7 +13,7 @@ import { MdOutlineDisabledByDefault, MdOutlineKeyboardArrowUp, MdEventNote, MdKe
 import { useState, useEffect } from 'react'
 
 // User Profile Component
-const Profile = ({ username, profileImg = './src/img/profile-default.jpg' }) => {
+const Profile = ({ username, profileImg = 'img/profile-default.jpg' }) => {
   return (
     <div className="py-2 px-3">
       <a href="#" className="flex justify-start items-center gap-3 ">
