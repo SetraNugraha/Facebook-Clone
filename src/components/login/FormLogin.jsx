@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
+import ModalRegister from '../flowbite/ModalRegister'
 
 const InputFormLogin = ({ type, name, id, placeholder }) => {
   return (
@@ -32,7 +33,8 @@ export default function FormLogin() {
         </div>
         {/* Button Create Account */}
         <div className="self-center mb-4">
-          <button className="bg-green-600 text-white font-bold text-center h-[50px] px-5 rounded-lg mt-5 hover:bg-green-700">Create New Account</button>
+          <ModalRegister />
+          {/* <button className="bg-green-600 text-white font-bold text-center h-[50px] px-5 rounded-lg mt-5 hover:bg-green-700">Create New Account</button> */}
         </div>
       </div>
 
