@@ -17,19 +17,19 @@ import { Link } from 'react-router-dom'
 const NavLogo = ({ Icon }) => {
   return (
     <>
-      <a href="#" className="ml-5">
+      <Link to={'/homepage'} className="ml-5">
         {Icon ? <Icon className="h-[40px] w-[40px] text-blue-500" /> : <MdOutlineDisabledByDefault className="h-[40px] w-[40px] text-blue-500" />}
-      </a>
+      </Link>
       <input type="text" className="w-[60%] h-[70%] rounded-full bg-slate-200 px-5 placeholder:text-slate-600 placeholder:text-lg border-[1px] focus:outline-none focus:border-blue-600" placeholder="Cari Di Facebook" />
     </>
   )
 }
 
 // Navbar Menu Component
-const NavMenu = ({ Icon }) => {
+const NavMenu = ({ Icon, url = '#' }) => {
   return (
     <li>
-      <a href="#">{Icon ? <Icon className="h-[30px] w-[30px] text-slate-600" /> : <MdOutlineDisabledByDefault className="h-[30px] w-[30px] text-slate-600" />}</a>
+      <a href={url}>{Icon ? <Icon className="h-[30px] w-[30px] text-slate-600" /> : <MdOutlineDisabledByDefault className="h-[30px] w-[30px] text-slate-600" />}</a>
     </li>
   )
 }
@@ -86,10 +86,10 @@ const ChildUserSetting = () => {
         {/* Card Link To Profile Page */}
         <div className="bg-white w-[90%] mx-auto relative top-3 flex flex-col justify-start items-start rounded-lg shadow-xl">
           <div className="w-[95%] mx-auto pt-2 border-b-[1px] border-slate-400 pb-3 hover:bg-slate-100 hover:rounded-lg">
-            <a href="#" className="flex gap-3 items-center px-2">
+            <Link to={'/profile'} className="flex gap-3 items-center px-2">
               <img src="img/profile-default.jpg" alt="" width={'42px'} height={'42px'} className="rounded-full" />
               <p className="font-semibold">Setra Nugraha</p>
-            </a>
+            </Link>
           </div>
           <div className="p-3 w-[95%] mx-auto hover:bg-slate-100 hover:rounded-lg">
             <a href="#" className="font-semibold text-blue-600 text-md px-2">
@@ -131,7 +131,7 @@ export default function Navbar() {
         {/* Menu Bar */}
         <div className="w-1/3">
           <ul className="flex items-center justify-around">
-            <NavMenu Icon={GoHomeFill} />
+            <NavMenu Icon={GoHomeFill} url="/homepage" />
             <NavMenu Icon={BsPeople} />
             <NavMenu Icon={RiYoutubeLine} />
             <NavMenu Icon={IoStorefrontOutline} />

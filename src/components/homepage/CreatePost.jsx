@@ -33,7 +33,7 @@ const UploadPost = ({ btnName, Icon, IconColor }) => {
 export default function CreatePost() {
   return (
     <>
-      <div className="bg-white mt-5 h-[130px] rounded-lg">
+      <div className="bg-white h-[130px] rounded-lg border-[0.5px] border-slate-300">
         {/* Profile & Input */}
         <div className="h-1/2 w-[96%] flex justify-start items-center gap-4 py-2 mx-auto border-b-2 border-gray-300">
           <TextPost userProfileImage={'img/profile-default.jpg'} />

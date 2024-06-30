@@ -80,7 +80,7 @@ export default function Reels() {
 
   return (
     <>
-      <div className="bg-white h-[280px] rounded-md drop-shadow-sm z-0">
+      <div className="bg-white h-[280px] mb-5 rounded-md drop-shadow-sm z-0">
         {/* Header */}
         <div className="h-[20%] w-[96%] mx-auto flex justify-center items-center">
           {/* Cerita */}
