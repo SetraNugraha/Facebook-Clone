@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
-import ModalRegister from '../flowbite/ModalRegister'
+import Register from './Register'
 
 const InputFormLogin = ({ type, name, id, placeholder }) => {
   return (
@@ -33,8 +34,7 @@ export default function FormLogin() {
         </div>
         {/* Button Create Account */}
         <div className="self-center mb-4">
-          <ModalRegister />
-          {/* <button className="bg-green-600 text-white font-bold text-center h-[50px] px-5 rounded-lg mt-5 hover:bg-green-700">Create New Account</button> */}
+          <Register />
         </div>
       </div>
 
